@@ -9,6 +9,7 @@
 //const array2 = ['z', 'y', 'x'];
 //Should return true.
 
+//Bad Approach
 const array1 = ["a", "b", "c", "x"];
 const array2 = ["z", "y", "c"];
 
@@ -23,6 +24,7 @@ const containCommonItem = (array1, array2) => {
 //O(a*b)
 // console.log(containCommonItem(array1, array2));
 
+//Good approach
 const containCommonItem2 = (array1, array2) => {
   let map = {};
 

@@ -88,7 +88,7 @@ const printItems = items => {
     index++;
   }
 
-  for (var i = 0; i < 100; i++) {
+  for (let i = 0; i < 100; i++) {
     console.log("hi");
   }
 };

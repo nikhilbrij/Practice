@@ -18,7 +18,7 @@
 
 /*=======================*/
 
-//Array Implemention
+//Array Implementation
 class MyArray {
   constructor() {
     this.length = 0;

@@ -11,7 +11,7 @@
 // //unshift
 // strings.unshift("x"); // O(n)
 
-// //splic
+// //splice
 // strings.splice(2, 0, "g"); // O(n/2) ==> O(n             )
 
 // console.log(strings);

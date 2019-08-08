@@ -33,6 +33,7 @@ const containCommonItem2 = (array1, array2) => {
       map[itemsOfArr1] = true;
     }
   }
+  // console.log(map);
 
   for (itemsOfArr2 of array2) {
     if (map[itemsOfArr2]) {
